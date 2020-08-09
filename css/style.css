@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    justify-self: center;
+}
+.common-container {
+    margin: 0px;
+    padding: 0;
+    background-color: rgba(240, 224, 190, 0.4);
+    background-image: url(../img/bgrnds/crossword.png) ;
+}
+
+.weather-header {
+    background-color: rgba(4, 137, 112, 0.4); /* Green background with 30% opacity */
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+.weather-header p {
+    padding: 5px 0px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+#offer-text {
+    padding: 6px;
+    text-align: center;
+    background-color:  rgba(4, 137, 112, 0.3);
+}
+
+#min, #max, #avg {
+    font-size: 14px;
+    font-style: italic;
+}
+.menuHeader {
+    position: sticky;
+    min-height: 30px;
+    background-color: rgb(98, 86, 86);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.menuHeader ul {
+    margin: 0px;
+}
+.menuHeader li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Georgia, Oxygen, Cantarell, Cambria, Times serif;
+}
+    
+.menuHeader li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; 
+    padding: 10px;
+}
+.menuHeader li a:hover {
+    padding: 24px;
+    background-color: rgba(98, 86, 86, 0.4);
+}
+
+
+
+.footer {
+    height: 50px;
+    background-color: rgb(98, 86, 86);
+    color: white;
+    font-style: italic;
+    
+}
+.footer a {
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+#offer-cont {
+    width: 600px;
+    min-height: 1200px;
+    padding: 20px; 
+}
+
+.content {
+    min-height: 1000px;
+    padding: 0 20 0 20px;
+    margin: 0px;
+    background-color: rgba(226, 206, 164, 0.4);
+}
+.main-left {
+    background-color: rgba(66, 231, 173, 0.4);
+    min-height: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+.main-right {
+    background-color: rgba(226, 206, 164, 0.5);
+    margin: 15px;
+
+}
+#container-menus {
+    position: relative;
+    width: 100%;
+    margin: 10 0 20 0;
+  }
+  
+#container-menus img {
+    /* visibility: hidden; */
+    width: 100%;
+    height: auto;
+    opacity: 0.4;    
+  }
+.smallpic {
+    width: 120px;
+} 
+  #menu-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+.container-menus .btn a {
+    text-decoration: none;
+  }
+.container-menus .btn a:hover {
+    color: #e6cba2;
+  }
+
+.menu-drinks{
+    
+}
+
+/* Order forms css*/
+
+.form-div {
+    min-height: 1000px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 12px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(186, 221, 207, 0.4);
+}
+#order-form {
+    min-height: 1000px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 12px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(186, 221, 207, 0.4);
+}
+
+.form-login input {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: rgba(186, 221, 207, 0.5);
+}
+.login-btn {
+    text-align: center;
+    background-color: rgba(73, 211, 156, 0.4);
+}
+.login-btn:active {
+    background-color: rgba(73, 211, 156, 0.9);
+}
+
+
+#sauce {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Contact page design*/
+
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: column;
+    font-family:  'Roboto', Arial, sans-serif;
+    background-image: url(../img/bgrnds/crossword.png);
+}
+.contact-wrap{
+    ?align ;
+    width: 600px;
+    min-height:1200px;
+    background-color: #e6cba2;
+}
+div.contact-cont {
+    overflow: auto;
+}
+
+.users {
+    width: 80%;
+    box-align: center;
+    background-color: rgba(32, 114, 155, 0.891);
+}

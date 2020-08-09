@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Contact |Demo page</title>
+</head>
+
+<body>
+    <div class='common-container'>
+        <div class='weather-header row'>
+            <div class='col-sm-0 col-md-2 col-lg-2'></div>
+            <div class='col-sm-6 col-md-6 col-lg-5'>
+                <p id ='offer-text'> </p>
+            </div>
+            <div class='col-sm-6 col-md-4 col-lg-5'>
+                <span>Weather</span>
+                    <select id="dayofweek">
+                    <option value="0">Monday</option>
+                    <option value="1">Tuesday</option>
+                    <option value="2">Wednesday</option>
+                    <option value="3">Thursday</option>
+                    <option value="4">Friday</option>
+                    <option value="5">Saturday</option>
+                    <option value="6">Sunday</option>
+                    </select>
+                <button class='btn-info' type='button' onclick="showTemperature()">Show</button>
+                <span id='show-temp'> ... </span>
+            </div>
+        </div>
+        <div class='weather-header row'>
+            <div class="col-4">
+                <p id='min'>min</p>
+            </div>
+            <div class="col-4">
+                <p id='avg'>avg</p>
+            </div>
+            <div class="col-4">
+                <p id='max'>max</p>
+            </div>
+        </div>
+        <div class='menuHeader'>
+            <ul>
+                <li><a href='/index.html'>Home</a></li>
+                <li><a href="/pages/menu.html">Menu</a></li>
+                <li><a href="/pages/offers.html">Offers</a></li>
+                <li><a href="/pages/myorder.html">My order</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class='form-div'>
+                <h4>Contact us!</h4>
+                <p>
+                <h6>address:</h6>
+                </p>
+                <p id='contact-address'>1 Vizpart str. 1117 Budapest</p>
+                <h6>phone:</h6>
+                <p id='contact-phone'>+3630 1234567</p>
+            </div>
+            <div class='form-div'>
+                <table>
+                    <caption>Opening hours</caption>
+                    <thead>
+                        <th>Day</th>
+                        <th>Open</th>
+                        <th>Close</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mon - Fri</td>
+                            <td>09:00-</td>
+                            <td rowspan="2">-21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sat</td>
+                            <td>10:00-</td>
+                        </tr>
+                        <tr>
+                            <td>Sun</td>
+                            <td colspan="2">closed</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                this is a footer
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </div>
+        <div class='footer'>
+            <p>
+                <span class='disclaimer'> Sweet dreams are made of <b> Burgers</b>. <i> &copy;2020 by Jandra42</i>
+                </span><br>
+                <span> <a href="">Photos from Unsplash</a></span>
+            </p>
+        </div>
+    </div>
+
+    <script src='../js/weatherWidget.js'></script>
+</body>
+
+</html>

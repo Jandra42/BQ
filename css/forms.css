@@ -1,0 +1,21 @@
+.form-div {
+    max-width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 12px;
+    margin: 30px;
+    border: grey;
+    border-radius: 10px;
+    background-color: rgba(186, 218, 221, 0.3);
+}
+
+.form-div input {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+#submit-btn {
+    align-content: center;
+    margin-top: 5px;
+    border-radius: 3px;
+}

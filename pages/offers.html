@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Daily Offers | demo page</title>
+</head>
+
+<body>
+    <div class='common-container'>
+        <div class='weather-header row'>
+            <div class='col-sm-0 col-md-2 col-lg-2'></div>
+            <div class='col-sm-6 col-md-6 col-lg-5'>
+                <span id ='offer-text'> </span>
+            </div>
+            <div class='col-sm-6 col-md-4 col-lg-5'>
+                <span>Weather</span>
+                    <select id="dayofweek">
+                    <option value="0">Monday</option>
+                    <option value="1">Tuesday</option>
+                    <option value="2">Wednesday</option>
+                    <option value="3">Thursday</option>
+                    <option value="4">Friday</option>
+                    <option value="5">Saturday</option>
+                    <option value="6">Sunday</option>
+                    </select>
+                <button class='btn-info' type='button' onclick="showTemperature()">show!</button>
+                <span id='show-temp'> ... </span> 
+            </div>
+        </div>
+        <div class='weather-header row'>
+            <div class="col-4">
+                <p id='min'>min</p>
+            </div>
+            <div class="col-4">
+                <p id='avg'>avg</p>
+            </div>
+            <div class="col-4">
+                <p id='max'>max</p>
+            </div>
+        </div>
+        <div class='menuHeader'>
+            <ul>
+                <li><a href='/index.html'>Home</a></li>
+                <li><a href="/pages/menu.html">Menu</a></li>
+                <li><a href="/pages/offers.html">Offers</a></li>
+                <li><a href="/pages/myorder.html">My order</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class='content'>
+            <div class='row'>
+                <div class='col-0'>
+                </div>
+                <div class='col-4 main-left'>
+                    <h6>Daily offers</h6>
+                    <p>
+                        Either winter, fall or spring <br>
+                        You are in for a treat* drink!
+                    </p>
+                    <p>We have a gift for you every day: </p>
+                </div>
+                <div class='col-7 main-right'>
+                    <p>
+                        
+                    </p>
+                    <p>
+                        <small>
+                            *Please select the day of week
+                            -> You get a free beverage or cake,<br>
+                             based on daily temperatures.<br>
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>
+            <p>
+                <span class='disclaimer'> Sweet dreams are made of <b> Burgers</b>. <i> &copy;2020 by Jandra42</i> </span><br>
+                <span> <a href="">Photos from Unsplash</a></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="../js/weatherWidget.js"></script>
+</body>
+
+</html>
