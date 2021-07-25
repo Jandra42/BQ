@@ -1,2 +1,2 @@
 # BQ
-BQ is a demo page for the NIVE-course. HTML, CSS, JS, BS involved. Also used as a pet project.
+BQ is a demo webpage. HTML, CSS, JS, BS used. Also use it as a pet project.
